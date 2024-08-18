@@ -1,0 +1,1 @@
+pyinstaller --name=my_application --onefile --add-data="path.ini;." --add-data="db/ISP.db;db" --add-data="ui/*;ui" main.py
